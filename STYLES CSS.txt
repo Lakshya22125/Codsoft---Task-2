@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 300px; /* Ensure columns are not too wide */
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center; /* Center-align text and images */
+}
+
+.column img {
+    max-width: 100px; /* Set a maximum width for images */
+    height: auto; /* Ensure images maintain their aspect ratio */
+    margin-top: 15px; /* Space between text and image */
+}
+.column h3 {
+    margin-top: 0; /* Remove default margin at the top of the heading */
+}
+
+.column p {
+    margin-bottom: 15px; /* Space between the paragraph and the image */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
